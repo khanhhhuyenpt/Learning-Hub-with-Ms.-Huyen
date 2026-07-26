@@ -1,1 +1,40 @@
-/* Global Colors & Variables */
+/* ==========================================
+   Ms. Huyen's Hub Design System
+========================================== */
+
+:root{
+
+    /* ========= Brand Colors ========= */
+
+    --primary:#D90000;
+    --primary-light:#F62440;
+
+    --gold:#FFEA93;
+    --gold-light:#FDF4AF;
+
+    --green:#8DB355;
+
+    --teal:#6FBEB2;
+    --mint:#A5E9DD;
+
+    /* ========= Background ========= */
+
+    --background:#FFFAF3;
+    --surface:#FFF2DB;
+    --surface-light:#FFE5BF;
+
+    /* ========= Text ========= */
+
+    --text:#2F2F2F;
+    --text-light:#666666;
+
+    /* ========= Border ========= */
+
+    --border-radius:20px;
+
+    /* ========= Shadow ========= */
+
+    --shadow:
+        0 8px 20px rgba(0,0,0,.08);
+
+}
