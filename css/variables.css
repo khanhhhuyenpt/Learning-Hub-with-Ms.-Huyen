@@ -1,168 +1,97 @@
-<!DOCTYPE html>
-<html lang="en">
+/* ==========================================
+   Ms. Huyen's Hub
+   Design System Variables
+   Version 1.0
+========================================== */
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+:root {
 
-    <title>Ms. Huyen's Hub</title>
+    /* ========= COLORS ========= */
 
-    <link rel="stylesheet" href="css/variables.css">
-    <link rel="stylesheet" href="css/components.css">
-    <link rel="stylesheet" href="css/homepage.css">
-    <link rel="stylesheet" href="css/animations.css">
-</head>
+    --color-primary: #D90000;
 
-<body>
+    --color-secondary: #8DB355;
 
-    <!-- =========================
-            HEADER
-    ========================== -->
+    --color-accent: #34908B;
 
-    <header class="site-header">
+    --color-highlight: #FFEA93;
 
-        <nav class="navbar">
+    --color-background: #FFFAF3;
 
-            <a href="#" class="navbar__logo">
-                🦊
-                <span>Ms. Huyen's Hub</span>
-            </a>
+    --color-card: #FFF2DB;
 
-            <ul class="navbar__menu">
+    --color-white: #FFFFFF;
 
-                <li><a href="#grades">Grades</a></li>
+    --color-text: #333333;
 
-                <li><a href="#grammar">Grammar Hub</a></li>
+    --color-text-light: #666666;
 
-                <li><a href="#about">About</a></li>
 
-            </ul>
 
-            <a href="#grades" class="navbar__button">
+    /* ========= TYPOGRAPHY ========= */
 
-                Start Learning
+    --font-heading: "Fredoka", sans-serif;
 
-            </a>
+    --font-body: "Nunito", sans-serif;
 
-        </nav>
 
-    </header>
 
-    <!-- =========================
-            MAIN
-    ========================== -->
+    /* ========= FONT SIZE ========= */
 
-    <main>
+    --font-xl: 64px;
 
-        <!-- HERO -->
+    --font-lg: 40px;
 
-        <section class="hero">
+    --font-md: 24px;
 
-            <div class="hero__content">
+    --font-base: 18px;
 
-                <h1>Ms. Huyen's Hub</h1>
+    --font-sm: 16px;
 
-                <p>
 
-                    Learn • Explore • Grow Together
 
-                </p>
+    /* ========= SPACING ========= */
 
-                <a href="#grades" class="hero__button">
+    --space-xs: 8px;
 
-                    Start Learning
+    --space-sm: 16px;
 
-                </a>
+    --space-md: 24px;
 
-            </div>
+    --space-lg: 48px;
 
-            <div class="hero__image">
+    --space-xl: 80px;
 
-                <!-- Fifi sẽ đặt ở đây -->
 
-            </div>
 
-        </section>
+    /* ========= BORDER ========= */
 
-        <!-- ========================= -->
+    --radius-sm: 12px;
 
-        <section class="grades" id="grades">
+    --radius-md: 20px;
 
-            <h2>Choose Your Grade</h2>
+    --radius-lg: 28px;
 
-            <div class="grade-grid">
 
-                <div class="grade-card">
-                    Grade 1
-                </div>
 
-                <div class="grade-card">
-                    Grade 2
-                </div>
+    /* ========= SHADOW ========= */
 
-                <div class="grade-card">
-                    Grade 3
-                </div>
+    --shadow-light: 0 4px 12px rgba(0,0,0,.08);
 
-                <div class="grade-card">
-                    Grade 4
-                </div>
+    --shadow-medium: 0 8px 24px rgba(0,0,0,.12);
 
-                <div class="grade-card">
-                    Grade 5
-                </div>
+    --shadow-large: 0 12px 36px rgba(0,0,0,.18);
 
-            </div>
 
-        </section>
 
-        <!-- ========================= -->
+    /* ========= CONTAINER ========= */
 
-        <section class="grammar" id="grammar">
+    --container-width: 1200px;
 
-            <h2>Grammar Hub</h2>
 
-            <p>
 
-                Practice English grammar through fun interactive lessons.
+    /* ========= TRANSITION ========= */
 
-            </p>
+    --transition: .3s ease;
 
-        </section>
-
-        <!-- ========================= -->
-
-        <section class="about" id="about">
-
-            <h2>About Ms. Huyen</h2>
-
-            <p>
-
-                Welcome to Ms. Huyen's Hub!
-
-                Here we learn English through games,
-                adventures, stories and exciting activities.
-
-            </p>
-
-        </section>
-
-    </main>
-
-    <!-- =========================
-            FOOTER
-    ========================== -->
-
-    <footer class="site-footer">
-
-        <p>
-
-            © 2026 Ms. Huyen's Hub
-
-        </p>
-
-    </footer>
-
-</body>
-
-</html>
+}
