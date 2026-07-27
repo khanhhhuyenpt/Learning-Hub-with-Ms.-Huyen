@@ -80,3 +80,103 @@
     box-shadow:var(--shadow-medium);
 
 }
+/* ==========================================
+   GRADE SECTION
+========================================== */
+
+.grades{
+
+    text-align:center;
+
+}
+
+.grade-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(5,1fr);
+
+    gap:24px;
+
+    margin-top:48px;
+
+}
+
+.grade-card{
+
+    min-height:180px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-family:var(--font-heading);
+
+    font-size:24px;
+
+    cursor:pointer;
+
+}
+
+.grade-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+
+/* ==========================================
+   GRAMMAR
+========================================== */
+
+.grammar{
+
+    text-align:center;
+
+}
+
+.grammar p{
+
+    max-width:700px;
+
+    margin:auto;
+
+    color:var(--color-text-light);
+
+}
+
+
+/* ==========================================
+   ABOUT
+========================================== */
+
+.about{
+
+    text-align:center;
+
+}
+
+.about p{
+
+    max-width:750px;
+
+    margin:auto;
+
+    color:var(--color-text-light);
+
+}
+
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+.site-footer{
+
+    background:white;
+
+    margin-top:80px;
+
+}
