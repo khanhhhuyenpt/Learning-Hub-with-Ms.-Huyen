@@ -1,40 +1,168 @@
-/* ==========================================
-   Ms. Huyen's Hub Design System
-========================================== */
+<!DOCTYPE html>
+<html lang="en">
 
-:root{
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    /* ========= Brand Colors ========= */
+    <title>Ms. Huyen's Hub</title>
 
-    --primary:#D90000;
-    --primary-light:#F62440;
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
 
-    --gold:#FFEA93;
-    --gold-light:#FDF4AF;
+<body>
 
-    --green:#8DB355;
+    <!-- =========================
+            HEADER
+    ========================== -->
 
-    --teal:#6FBEB2;
-    --mint:#A5E9DD;
+    <header class="site-header">
 
-    /* ========= Background ========= */
+        <nav class="navbar">
 
-    --background:#FFFAF3;
-    --surface:#FFF2DB;
-    --surface-light:#FFE5BF;
+            <a href="#" class="navbar__logo">
+                🦊
+                <span>Ms. Huyen's Hub</span>
+            </a>
 
-    /* ========= Text ========= */
+            <ul class="navbar__menu">
 
-    --text:#2F2F2F;
-    --text-light:#666666;
+                <li><a href="#grades">Grades</a></li>
 
-    /* ========= Border ========= */
+                <li><a href="#grammar">Grammar Hub</a></li>
 
-    --border-radius:20px;
+                <li><a href="#about">About</a></li>
 
-    /* ========= Shadow ========= */
+            </ul>
 
-    --shadow:
-        0 8px 20px rgba(0,0,0,.08);
+            <a href="#grades" class="navbar__button">
 
-}
+                Start Learning
+
+            </a>
+
+        </nav>
+
+    </header>
+
+    <!-- =========================
+            MAIN
+    ========================== -->
+
+    <main>
+
+        <!-- HERO -->
+
+        <section class="hero">
+
+            <div class="hero__content">
+
+                <h1>Ms. Huyen's Hub</h1>
+
+                <p>
+
+                    Learn • Explore • Grow Together
+
+                </p>
+
+                <a href="#grades" class="hero__button">
+
+                    Start Learning
+
+                </a>
+
+            </div>
+
+            <div class="hero__image">
+
+                <!-- Fifi sẽ đặt ở đây -->
+
+            </div>
+
+        </section>
+
+        <!-- ========================= -->
+
+        <section class="grades" id="grades">
+
+            <h2>Choose Your Grade</h2>
+
+            <div class="grade-grid">
+
+                <div class="grade-card">
+                    Grade 1
+                </div>
+
+                <div class="grade-card">
+                    Grade 2
+                </div>
+
+                <div class="grade-card">
+                    Grade 3
+                </div>
+
+                <div class="grade-card">
+                    Grade 4
+                </div>
+
+                <div class="grade-card">
+                    Grade 5
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ========================= -->
+
+        <section class="grammar" id="grammar">
+
+            <h2>Grammar Hub</h2>
+
+            <p>
+
+                Practice English grammar through fun interactive lessons.
+
+            </p>
+
+        </section>
+
+        <!-- ========================= -->
+
+        <section class="about" id="about">
+
+            <h2>About Ms. Huyen</h2>
+
+            <p>
+
+                Welcome to Ms. Huyen's Hub!
+
+                Here we learn English through games,
+                adventures, stories and exciting activities.
+
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- =========================
+            FOOTER
+    ========================== -->
+
+    <footer class="site-footer">
+
+        <p>
+
+            © 2026 Ms. Huyen's Hub
+
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
